@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            opacity: 24%;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .content {
+            position: relative;
+            top: 240px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: xxx-large;
+            font-family: monospace;
+            font-weight: bolder;
+            /* font-size: 3rem; */
+            letter-spacing: 3px;
+            color: #c0e2ff;
+            font-size: 55px;
+            padding-left: 99px;
+        }
+
+        .cont-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .learn-btn {
+            position: absolute;
+            top: 70%;
+
+        }
+
+
+        .learn-btn {
+            padding: 7px 20px;
+            color: #6d6262;
+            background: #1e1e1e;
+            filter: blur(2px);
+        }
+
+        .learn-btn:hover{
+            cursor: pointer;
+            filter: none;
+            transition: all .1s .1s ease-in-out;
+        }
+
+        .cont-container img {
+            position: relative;
+            left: 25%;
+            height: 100px;
+            width: 200px;
+            filter: grayscale(1);
+            top: 35px;
+        }
+
+        ul {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            list-style: none;
+            position: relative;
+            left: 75px;
+            top: 200px;
+
+        }
+
+        ul li {
+            margin-left: 23px;
+            margin-left: 23px;
+            font-size: 20px;
+            font-weight: lighter;
+            color: cornsilk;
+            text-decoration: none;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="7989837-sd_640_360_25fps.mp4">
+    </video>
+    <main>
+        <div class="cont-container">
+            
+            <nav>
+                <img src="logo.png" alt="">
+                <ul>
+                    <a href="index.html">
+                        <li>Events</li>
+                    </a>
+                    <a href="about us.html">
+                        <li>About Us</li>
+                    </a>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <div class="content">
+                Welcome to the online event for this year,
+                everyone!
+            </div>
+            <button class="learn-btn">Learn More</button>
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>
